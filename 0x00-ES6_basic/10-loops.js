@@ -4,5 +4,5 @@ export default function appendToEachArrayValue(array, appendString) {
     newarr.push(`${appendString} + ${value}`);
   }
 
-  return array;
+  return newarr;
 }
